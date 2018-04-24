@@ -1,0 +1,18 @@
+{
+        "name": "absweek",
+        "version": "1.0.2",
+        "description": "获取从1970.1.1 至今 绝对星期数",
+        "private": false,
+        "author": "LiSC <903317164@qq.com>",
+        "license": "MIT",
+        "repository": {
+                "type": "git",
+                "url": "git+https://github.com/SunOfHomeBoy/absWeek"
+        },
+        "main": "./index.js",
+        "typings": "./index.d.ts",
+        "scripts": {
+                "build": "tsc --declaration true --noImplicitUseStrict --removeComments ./index.ts"
+        },
+        "dependencies": {}
+}
