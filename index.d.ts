@@ -1,1 +1,1 @@
-export default function getWeek(CurTime: Date, thisTime?: Date): number;
+export default function absWeek(curTime: Date, beginTime?: Date): number;
