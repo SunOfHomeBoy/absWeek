@@ -11,9 +11,7 @@
 //
 // @authors LiSC <sc903317164@gmail.com> 2018-04 $$
 
-// export default function absWeek(time: Date): number {
-
-export default function getWeek(curTime: Date, beginTime: Date = new Date(1970, 1, 5)): number {
+export default function absWeek(curTime: Date, beginTime: Date = new Date(1970, 0, 5)): number {
         let thisTimeMs: number = beginTime.getTime()
 
         if (thisTimeMs < 0) return -1
